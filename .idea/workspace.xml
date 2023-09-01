@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0696651-57e9-4eb4-8833-f8fc993ccef8" name="Changes" comment="Initial commit" />
+    <list default="true" id="e0696651-57e9-4eb4-8833-f8fc993ccef8" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/http/types/InstanceCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/http/types/InstanceCreateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/redis/RedisEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/redis/YggRedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/redis/events/CabotRedisEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/redis/events/InstanceStatusUpdateEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cabotmc/CabotSDK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/CabotSDK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cabotmc/http/YggHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/http/YggHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cabotmc/http/types/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/types/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cabotmc/http/types/IsolationMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cabotmc/types/IsolationMode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,6 +57,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693459392169</updated>
-      <workItem from="1693459393466" duration="3892000" />
+      <workItem from="1693459393466" duration="4121000" />
+      <workItem from="1693519716096" duration="7025000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1693465188743</created>
@@ -67,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693465188743</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1693465388798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693465388798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

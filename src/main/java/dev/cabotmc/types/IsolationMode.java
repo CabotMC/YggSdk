@@ -1,4 +1,4 @@
-package dev.cabotmc.http.types;
+package dev.cabotmc.types;
 
 public class IsolationMode {
   public static final int ChatRestricted = 1;
