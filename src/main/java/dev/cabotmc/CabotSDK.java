@@ -3,14 +3,20 @@ package dev.cabotmc;
 import dev.cabotmc.http.YggHttpClient;
 import redis.clients.jedis.JedisPool;
 
-import java.net.http.HttpClient;
 
 public class CabotSDK {
   private String apiBaseUrl;
   private String redisUrl;
 
-  private JedisPool jedisPool;
+  public JedisPool getJedisPool() {
+    return jedisPool;
+  }
 
+  public YggHttpClient getClient() {
+    return client;
+  }
+
+  private JedisPool jedisPool;
   private YggHttpClient client;
 
 
